@@ -1,0 +1,35 @@
+Trying python '3.4'
+Using python at '/usr/bin/python3.4'
+Using base prefix '/usr'
+New python executable in py3.4/bin/python3.4
+Also creating executable in py3.4/bin/python
+Installing setuptools, pip...done.
+Running virtualenv with interpreter /usr/bin/python3.4
+Downloading/unpacking docker-py
+  Downloading docker-py-0.6.0.tar.gz
+  Running setup.py (path:/code/py3.4/build/docker-py/setup.py) egg_info for package docker-py
+    
+Downloading/unpacking requests>=2.2.1 (from docker-py)
+Downloading/unpacking six>=1.3.0 (from docker-py)
+  Downloading six-1.8.0-py2.py3-none-any.whl
+Installing collected packages: docker-py, requests, six
+  Running setup.py install for docker-py
+    
+Successfully installed docker-py requests six
+Cleaning up...
+docker-py==0.6.0
+requests==2.5.0
+six==1.8.0
+Python version: 3.4.2.final.0
+Build directory: /code/build-dir
+Docker host: tcp://172.17.42.1:2375
+{"stream":" ---\u003e Running in 6dbdeffaa1c2\n"}
+Traceback (most recent call last):
+  File "builder.py", line 16, in <module>
+    for line in c.build(BUILD_DIR, stream=True, nocache=True, rm=True):
+  File "/code/py3.4/lib/python3.4/site-packages/docker/client.py", line 293, in _stream_helper
+    size_line = socket.readline()
+  File "/code/py3.4/lib/python3.4/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 15: ordinal not in range(128)
+No container found to destroy

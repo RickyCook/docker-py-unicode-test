@@ -1,0 +1,47 @@
+Trying python '2.7'
+Using python at '/usr/bin/python2.7'
+New python executable in py2.7/bin/python2.7
+Also creating executable in py2.7/bin/python
+Installing setuptools, pip...done.
+Running virtualenv with interpreter /usr/bin/python2.7
+Downloading/unpacking docker-py
+  Downloading docker-py-0.6.0.tar.gz
+  Running setup.py (path:/code/py2.7/build/docker-py/setup.py) egg_info for package docker-py
+    
+Downloading/unpacking requests>=2.2.1 (from docker-py)
+Downloading/unpacking six>=1.3.0 (from docker-py)
+  Downloading six-1.8.0-py2.py3-none-any.whl
+Downloading/unpacking websocket-client>=0.11.0 (from docker-py)
+  Running setup.py (path:/code/py2.7/build/websocket-client/setup.py) egg_info for package websocket-client
+    
+Downloading/unpacking backports.ssl-match-hostname (from websocket-client>=0.11.0->docker-py)
+  Downloading backports.ssl_match_hostname-3.4.0.2.tar.gz
+  Running setup.py (path:/code/py2.7/build/backports.ssl-match-hostname/setup.py) egg_info for package backports.ssl-match-hostname
+    
+Installing collected packages: docker-py, requests, six, websocket-client, backports.ssl-match-hostname
+  Running setup.py install for docker-py
+    
+  Running setup.py install for websocket-client
+    changing mode of build/scripts-2.7/wsdump.py from 644 to 755
+    
+    changing mode of /code/py2.7/bin/wsdump.py to 755
+  Running setup.py install for backports.ssl-match-hostname
+    
+Successfully installed docker-py requests six websocket-client backports.ssl-match-hostname
+Cleaning up...
+argparse==1.2.1
+backports.ssl-match-hostname==3.4.0.2
+docker-py==0.6.0
+requests==2.5.0
+six==1.8.0
+websocket-client==0.22.0
+wsgiref==0.1.2
+Python version: 2.7.8.final.0
+Build directory: /code/build-dir
+Docker host: tcp://172.17.42.1:2375
+{"stream":" ---\u003e Running in a1abac146a61\n"}
+{"stream":"✓ Unicode Okay\n"}
+{"stream":" ---\u003e ea9569aeecad\n"}
+{"stream":"Removing intermediate container a1abac146a61\n"}
+{"stream":"Successfully built ea9569aeecad\n"}
+Deleted: ea9569aeecad44d78ce70d824e6fff71f1b806d1b2a235dd602a302c9e7fc848

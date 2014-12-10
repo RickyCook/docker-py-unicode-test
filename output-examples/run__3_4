@@ -1,0 +1,33 @@
+Trying python '3.4'
+Using python at '/Library/Frameworks/Python.framework/Versions/3.4/bin//python3.4'
+Using base prefix '/Library/Frameworks/Python.framework/Versions/3.4'
+New python executable in py3.4/bin/python3.4
+Also creating executable in py3.4/bin/python
+Installing setuptools, pip...done.
+Running virtualenv with interpreter /Library/Frameworks/Python.framework/Versions/3.4/bin//python3.4
+Downloading/unpacking docker-py
+  Downloading docker-py-0.6.0.tar.gz
+  Running setup.py (path:/Volumes/keys/code/docker-py-unicode-test/py3.4/build/docker-py/setup.py) egg_info for package docker-py
+    
+Downloading/unpacking requests>=2.2.1 (from docker-py)
+Downloading/unpacking six>=1.3.0 (from docker-py)
+  Downloading six-1.8.0-py2.py3-none-any.whl
+Installing collected packages: docker-py, requests, six
+  Running setup.py install for docker-py
+    
+Successfully installed docker-py requests six
+Cleaning up...
+docker-py==0.6.0
+requests==2.5.0
+six==1.8.0
+Python version: 3.4.2.final.0
+Build directory: /Volumes/keys/code/docker-py-unicode-test/build-dir
+Docker host: tcp://debian.local:2375
+{"stream":" ---\u003e f6fab3b798be\n"}
+{"stream":"Step 1 : RUN perl -e 'binmode(STDOUT, \":utf8\"); print \"\\x{2713} Unicode Okay\\n\"'\n"}
+{"stream":" ---\u003e Running in 5d745492cb2f\n"}
+{"stream":"✓ Unicode Okay\n"}
+{"stream":" ---\u003e 9ca80cc51f39\n"}
+{"stream":"Removing intermediate container 5d745492cb2f\n"}
+{"stream":"Successfully built 9ca80cc51f39\n"}
+Deleted: 9ca80cc51f392e762eb155cf9bcd476af28fff243cc08b3e9a5d471166cecf04
