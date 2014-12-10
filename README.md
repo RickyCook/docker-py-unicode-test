@@ -1,0 +1,1 @@
+Docker-py seems to be having issues to do with requests and processing non-ascii data. Tests to isolate this behavior
