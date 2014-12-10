@@ -17,7 +17,7 @@ echo "Using python at '$python_location'"
 virtualenv -p "$python_location" "py$1"
 
 source "py$1/bin/activate"
-$pip_exec install requests==2.4.3 docker-py
+$pip_exec install docker-py
 $pip_exec freeze
 
 IMAGE_ID_RE='[a-z0-9]*'
